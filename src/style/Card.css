@@ -1,0 +1,165 @@
+.fullsection {
+    padding-bottom: 3%;
+}
+
+.secondsection {
+    padding-left: 4%;
+}
+
+.secondheading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 76%;
+    font-size: 35px;
+    padding-left: 1%;
+    padding-right: 5%;
+    padding-top: 2%;
+    font-weight: 700;
+}
+
+.cardscreenimage {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cardimage {
+    width: 43%;
+    height: 35%;
+    padding-left: 2%;
+    border-radius: 18px;
+}
+
+.cardimage:hover {
+    scale: 1.03;
+}
+
+.slider {
+    overflow-x: scroll;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+.leftcursor {
+    opacity:50;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid rgb(219, 217, 217);
+    color: grey;
+}
+
+.rightcursor {
+    opacity: 50;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid rgb(219, 217, 217);
+    color: grey;
+}
+
+.thirdsection {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.thirdheading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50%;
+    font-size: 20px;
+    padding-left: 1%;
+    padding-top: 2%;
+    font-weight: 600;
+}
+
+.secondbutttonsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 1%;
+}
+
+.cursorslider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+    gap: 8px;
+}
+
+.divider {
+    border-left: 1px solid gray;
+    height: 1cm;
+}
+
+.fristbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: smaller;
+    border-radius: 20px;
+    border: 1px solid rgb(219, 217, 217);
+}
+
+.secondbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+    border-radius: 20px;
+    border: 1px solid rgb(221, 216, 216);
+    width: 100px;
+    height: 30px;
+}
+
+.secondsubbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+    border-radius: 20px;
+    border: 1px solid rgb(221, 216, 216);
+    width: 120px;
+    height: 30px;
+}
+
+.forthsection {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 12px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.cardtitle {
+    font-size: small;
+    color: grey;
+}
+
+.cardtitle .StarIcon {
+    font-size: 18px;
+    color: black;
+}
+
+.cardtext {
+    display:inline-block;
+    align-items: center;
+    font-size: 16px;
+}
+
+.cardimagethirdsec {
+    border-radius: 18px;
+    height: 280px;
+    width: 220px;
+}
+
+.cardoverlay {
+    color: whitesmoke;
+    padding-left: 80%;
+}
